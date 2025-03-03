@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elysium - Web Solutions</title>
+    <title>Elysium Development</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #2c2c2c; color: #ffffff; }
@@ -11,10 +10,7 @@
         nav { display: flex; justify-content: center; gap: 20px; background: #444; padding: 10px; flex-wrap: wrap; }
         nav a { color: white; text-decoration: none; font-size: 18px; transition: color 0.3s ease; }
         nav a:hover { color: #bdbdbd; }
-        .hero { text-align: center; padding: 50px; background: #3a3a3a; color: white; animation: fadeIn 2s ease-in-out;
-height:100vh;
-
- }
+        .hero { display: flex; justify-content: center; align-items: center; height: 100vh; background: #add8e6; color: black; text-align: center; animation: fadeIn 2s ease-in-out; }
         .services { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px; }
         .service { background: #4a4a4a; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(255,255,255,0.1); text-align: center; width: 90%; max-width: 300px; transition: transform 0.3s ease, box-shadow 0.3s ease; }
         .service:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(255,255,255,0.2); }
@@ -38,8 +34,10 @@ height:100vh;
         <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
     </nav>
     <section class="hero">
-        <h2>Building Stunning Websites & Digital Experiences</h2>
-        <p>We provide cutting-edge web development, digital marketing, hosting, deployment, and video editing solutions.</p>
+        <div>
+            <h2>Building Stunning Websites & Digital Experiences</h2>
+            <p>We provide cutting-edge web development, digital marketing, hosting, deployment, and video editing solutions.</p>
+        </div>
     </section>
     <section class="services" id="services">
         <div class="service">
@@ -68,7 +66,7 @@ height:100vh;
         </div>
     </section>
     <footer>
-        <p>&copy; 2025 Elysium. All rights reserved.</p>
+        <p>&copy; 2025 Elysium Development. All rights reserved.</p>
     </footer>
 </body>
 </html>
